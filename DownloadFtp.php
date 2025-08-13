@@ -1,6 +1,4 @@
 <?php
-error_reporting(-1);
-echo 'aaa';
 /**
  * Skrypt do pobierania plików na serwer
  * 1. Umieść plik na serwerze
@@ -44,10 +42,7 @@ class DownloadFtp
 
     private function setVars(): void
     {
-        echo "xxxx \n\n\n";
         $this->options = getopt("s:l:f:p:t:c:");
-        print_r($this->options);
-        echo "xxxx \n\n\n";
         $this->options = getopt("s:l:f:p:t:c:d:");
         $this->set('s', 'ftp_server');
         $this->set('l', 'ftp_user');
