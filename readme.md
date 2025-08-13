@@ -4,7 +4,6 @@ Jest to skrypt do kopiowania z konta ftp do lokalnego folderu (zastępuje FileZi
 # Przykład uruchomienia
 ```
 curl -s https://raw.githubusercontent.com/lukasz1991a/DownloadFtp/refs/heads/main/DownloadFtp.php | php -- -s="lk.pl" -l="xx" -p="xx" -f="/public_html"
-TOKEN - Twój token z bitbucket który
 ```
 # Parametry Obowiązkowe
     -s="Serwer"
